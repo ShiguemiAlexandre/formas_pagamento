@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Lobster&display=swap');
+*{
+    background-color: #debe96;
+    font-family: 'Kalam', cursive;
+}
+/*Definir o tamanho da logo*/
+.logo{
+    width: 200px;
+    margin-bottom: 5%;
+}
+/*Grid*/
+#pix{
+    grid-area: botao1;
+    justify-items: center;
+}
+#cartao{
+    grid-area: botao2;
+}
+#deposito{
+    grid-area: botao3;
+}
+#transf{
+    grid-area: botao4;
+}
+/*Centralizar logo e h1 h2*/
+header{
+    text-align: center; 
+}
+/*Configuração do h1 e h2*/
+.header-hud{
+    font-size:  small;
+    cursor: default;
+}
+
+#pmc{
+    text-decoration: underline;
+    color: black;
+}
+/*Colocar pointer no botão das opções*/
+.botao:hover{
+    cursor: pointer;
+    background-color: #ff5555ea;
+    box-shadow: 7px 7px 7px 7px #ed5836;
+}
+/*Ao clicar a box-shadow diminui nos 3px*/
+.botao:active{
+    box-shadow: 3px 3px 3px 3px #ed5836;
+}
+/*Botão*/
+nav {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'botao1 botao2'
+    'botao3 botao4';
+    box-sizing: border-box; /*Usado para determinar a borda pela borda*/
+    gap: 20%;
+}
+.botao {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: rgba(240, 27, 27, 0.52);
+    box-shadow: 5px 5px 5px 5px #ee7157;
+    width: 100%;
+    padding: 2%;
+    background-color: #de9f74;
+    border: 1px solid #ffbe92e2;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+/*Botão do whats app junto com responsive*/
+/* #whats{
+    width: 3rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+@media(max-width:620px){
+    #whats{
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:560px){
+    #whats{
+        margin-bottom: 3rem;
+    }
+}
+@media(max-width:305px){
+    #whats{
+        margin-bottom: 5rem;
+    }
+} */
+/*Rodapé*/
+footer{
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+}
+/*Responsive*/
+@media(max-width:870px) {
+    nav{
+        grid-template-areas: 
+        'botao1'
+        'botao2'
+        'botao3'
+        'botao4';
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    #pix{
+        grid-area: botao1;
+        justify-items: center;
+    }
+    #cartao{
+        grid-area: botao2;
+    }
+    #deposito{
+        grid-area: botao3;
+    }
+    #transf{
+        grid-area: botao4;
+    }
+}

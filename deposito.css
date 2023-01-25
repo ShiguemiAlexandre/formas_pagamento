@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Lobster&display=swap');
+*{
+    background-color: #debe96;
+    font-family: 'Kalam', cursive;
+}
+.logo{
+    width: 200px;
+    margin-bottom: 5%;
+}
+header{
+    text-align: center;
+}
+/*Button Back History*/
+#botao-voltar{
+    width: 80px;
+    margin-left: 0;
+    display: block;
+}
+#botao-voltar:hover{
+    cursor: pointer;
+}
+.dados{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.dados div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+h3 {
+    text-decoration: underline;
+    display: inline;
+    cursor: default;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0.5%;
+}
