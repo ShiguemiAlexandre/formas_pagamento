@@ -57,6 +57,22 @@ h2{
 #botao-voltar:hover{
     cursor: pointer;
 }
+#info_logo{
+    width: 2.5rem;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+}
+.info_pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#confirmar{
+    text-align: center;
+    font-size: 80%;
+
+    height:fit-content;
+}
 @media(max-width:388px){
     #botao-voltar{
         width: 60px;
@@ -64,5 +80,12 @@ h2{
     #copiar{
         margin: 1rem;
         border: 2px solid black;
+    }
+}
+@media (max-width: 460px){
+    #info_logo{
+        max-height: 2rem;
+        max-width: 2rem;
+        position:relative;
     }
 }
