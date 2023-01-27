@@ -30,16 +30,20 @@ header{
     justify-content: space-between;
     width: 20%;
     align-items: center;
-
 }
 h3 {
     text-decoration: underline;
     display: inline;
     cursor: default;
+    font-size: 1rem;
 }
 input{
     border-radius: 5px;
     border: 2px solid black;
     text-align: center;
     margin: 0.5%;
+    font-size: 0.8rem;
+}
+@media (max-width: 1400px){
+    /*Necessario terminar*/
 }
