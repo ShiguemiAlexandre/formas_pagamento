@@ -3,6 +3,7 @@
 - Web Site criado para facilitar na hora de selecionar e realizar qual forma de pagamento deseja
 - Formas de pagamentos Pix / Cartão de crédito / Transferência bancária / Depósito
 - Opção de voltar a página anterior e copiar um texto pré escrito
+- Responsividade funcional (min-width: 320px)
 
 ## Desenvolvimento
 
