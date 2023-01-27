@@ -36,14 +36,46 @@ h3 {
     display: inline;
     cursor: default;
     font-size: 1rem;
+    width: 50%;
 }
+
 input{
     border-radius: 5px;
     border: 2px solid black;
     text-align: center;
-    margin: 0.5%;
+    margin: 4%;
     font-size: 0.8rem;
+    width: 50%;
 }
-@media (max-width: 1400px){
-    /*Necessario terminar*/
+@media (max-width: 1420px){
+    .dados{
+       display: block;
+    }
+    .dados div {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+    h3{
+        display: block;
+        margin: 0 auto;
+        font-size: 100%;
+    }
+    .h3{
+        width: 100%;
+    }
+    input{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 100%;
+    }
+}
+@media (max-width: 510px){
+    #manu{
+        font-size: 60%;
+    }
+    #banco{
+        font-size: 65%;
+    }
 }
