@@ -9,6 +9,6 @@
 
 - Foi utilizado o software Figma para realizar o primeiro desing do projeto
 - Link: https://www.figma.com/community/file/1200619065742958990
-![alt text](figma.png)
+![alt text](/imagens/figma.png)
 - Mudança de código será feita com exigência do cliente
 - Foram utilizados icon do site Flaticon
