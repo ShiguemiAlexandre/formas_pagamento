@@ -2,6 +2,7 @@ function copiarTexto() {
     const textToCopy = "b5291e6f-6801-460e-9940-9fb737b0b384";
     navigator.clipboard.writeText(textToCopy).then(() => {
         console.log("Texto copiado com sucesso: " + textToCopy);
+        alert("Pix copiado")
     }, error => {
         console.error("Erro ao copiar texto: " + error);
     });      
