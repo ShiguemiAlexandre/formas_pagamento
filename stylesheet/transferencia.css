@@ -5,7 +5,7 @@
     color: rgb(255, 208, 254);
 }
 .logo{
-    width: 200px;
+    width: 300px;
     margin-bottom: 5%;
 
 }
@@ -93,7 +93,7 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 #confirmar{
@@ -101,5 +101,5 @@ input{
     font-size: 80%;
     height:fit-content;
     text-decoration: none;
-    width: 80%
+    width: 100%
 }
