@@ -4,6 +4,7 @@
 - Formas de pagamentos Pix / Cartão de crédito / Transferência bancária / Depósito
 - Opção de voltar a página anterior e copiar um texto pré escrito
 - Responsividade funcional (min-width: 320px)
+- Link do site: https://cigadasoraya.netlify.app/
 
 ## Desenvolvimento
 
