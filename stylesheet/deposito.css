@@ -4,6 +4,10 @@
     font-family: 'Kalam', cursive;
     color: rgb(255, 208, 254);
 }
+html{
+    background-image: linear-gradient(to bottom,white, #ff00a1);
+    height: 100vh;
+}
 .logo{
     width: 200px;
     margin-bottom: 5%;

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&family=Lobster&display=swap');
 *{
-    background-color: #a00066;
+    /* background-color: #a00066; */
     font-family: 'Kalam', cursive;
-    color: rgb(255, 208, 254);
+    color: rgb(0, 0, 0);
+}
+html{
+    background-image: linear-gradient(to bottom,white, #ff00a1);
+    height: 100vh;
 }
 /*Definir o tamanho da logo*/
 .logo{
@@ -35,7 +39,7 @@ header{
 
 #pmc{
     text-decoration: underline;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 /*Colocar pointer no botão das opções*/
 .botao:hover{
@@ -63,35 +67,12 @@ nav {
     /* box-shadow: 5px 5px 5px 5px #ff4a68; */
     width: 100%;
     padding: 2%;
-    background-color: #ff61dab6;
+    background-color: rgb(203, 119, 202);
     border: 1px solid #ffbe92e2;
     text-align: center;
     text-decoration: none;
     color: black;
 }
-/*Botão do whats app junto com responsive*/
-/* #whats{
-    width: 3rem;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 10px;
-}
-@media(max-width:620px){
-    #whats{
-        margin-bottom: 2rem;
-    }
-}
-@media(max-width:560px){
-    #whats{
-        margin-bottom: 3rem;
-    }
-}
-@media(max-width:305px){
-    #whats{
-        margin-bottom: 5rem;
-    }
-} */
 /*Rodapé*/
 footer{
     position: absolute;
