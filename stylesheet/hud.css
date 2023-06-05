@@ -67,11 +67,11 @@ nav {
     /* box-shadow: 5px 5px 5px 5px #ff4a68; */
     width: 100%;
     padding: 2%;
-    background-color: rgb(203, 119, 202);
+    background-color: #ff4a68;
     border: 1px solid #ffbe92e2;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 /*Rodapé*/
 footer{
